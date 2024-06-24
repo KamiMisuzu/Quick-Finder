@@ -1,0 +1,5 @@
+﻿  main.cpp
+D:\VscodeCommunity\VC\Tools\MSVC\14.39.33519\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+main.obj : error LNK2001: 无法解析的外部符号 "class std::vector<char const *,class std::allocator<char const *> > & __cdecl ToolDisk::GetLocalDiskName(bool)" (?GetLocalDiskName@ToolDisk@@YAAEAV?$vector@PEBDV?$allocator@PEBD@std@@@std@@_N@Z)
+MSVCRT.lib(exe_main.obj) : error LNK2001: 无法解析的外部符号 main
+C:\Users\Administrator\source\repos\ConsoleApplication6\x64\Release\Listeningtofiledirectory.exe : fatal error LNK1120: 2 个无法解析的外部命令

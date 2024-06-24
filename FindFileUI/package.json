@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "electron": "^31.0.2",
+    "electron-packager": "^17.1.2"
+  },
+  "main": "main.js",
+  "name": "EveryFind"
+
+}

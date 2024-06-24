@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\Administrator\source\repos\ConsoleApplication6\Listeningtofiledirectory\main.cpp(60,26): warning C4311: “类型强制转换”: 从“FILE_NOTIFY_INFORMATION *”到“DWORD”的指针截断
+C:\Users\Administrator\source\repos\ConsoleApplication6\Listeningtofiledirectory\main.cpp(60,26): warning C4302: “类型强制转换”: 从“FILE_NOTIFY_INFORMATION *”到“DWORD”截断
+C:\Users\Administrator\source\repos\ConsoleApplication6\Listeningtofiledirectory\main.cpp(59,58): warning C4312: “类型强制转换”: 从“unsigned long”转换到更大的“FILE_NOTIFY_INFORMATION *”
+C:\Users\Administrator\source\repos\ConsoleApplication6\Listeningtofiledirectory\main.cpp(91,22): error C2664: “HANDLE CreateThread(LPSECURITY_ATTRIBUTES,SIZE_T,LPTHREAD_START_ROUTINE,LPVOID,DWORD,LPDWORD)”: 无法将参数 3 从“DWORD (__cdecl *)(const char *)”转换为“LPTHREAD_START_ROUTINE”
+  C:\Users\Administrator\source\repos\ConsoleApplication6\Listeningtofiledirectory\main.cpp(91,44):
+  在匹配目标类型的范围内没有具有该名称的函数
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\processthreadsapi.h(194,1):
+  参见“CreateThread”的声明
+  C:\Users\Administrator\source\repos\ConsoleApplication6\Listeningtofiledirectory\main.cpp(91,22):
+  尝试匹配参数列表“(int, int, overloaded-function, const char *, int, int)”时
+  

@@ -1,0 +1,9 @@
+﻿  AirDiskStorage.cpp
+C:\Users\Administrator\source\repos\ConsoleApplication6\ConsoleApplication6\AirDiskStorage.cpp(11,13): warning C4244: “初始化”: 从“time_t”转换到“int”，可能丢失数据
+C:\Users\Administrator\source\repos\ConsoleApplication6\ConsoleApplication6\AirDiskStorage.cpp(71,92): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码
+  1 of 811 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  ConsoleApplication6.vcxproj -> C:\Users\Administrator\source\repos\ConsoleApplication6\x64\Release\ConsoleApplication6.exe

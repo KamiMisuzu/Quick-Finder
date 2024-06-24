@@ -1,0 +1,147 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#attributeFile{
+    width: 60%; /* 平分父容器的宽度 */
+    height: 100%;
+    float: left; /* 让两个元素并排显示 */
+}
+
+#ShowFile {
+    width: 40%; /* 平分父容器的宽度 */
+    height: 100%;
+    float: left; /* 让两个元素并排显示 */
+}
+#attribute{
+    display: flex;
+    flex-direction: column;
+    margin: 0.3%;
+    width: 90%;
+    height: 99%;
+    background-color: #F0F5F9;
+    border-radius:30px;
+}
+#attribute>#attributeFileIcon{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:5%;
+    margin-left:5%;
+    margin-right:5%;
+    width:90%;
+    height:30%;
+  }
+#attributeFileIcon >img {
+  user-select: none;
+  width:80%;
+  height:100%;
+  border-radius:30px;
+
+}
+#attribute>#showFileName{
+  word-wrap: break-word;
+  font-size: 100%;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 0.5%;
+
+}
+
+
+#showFileList{
+  margin:1%;
+  width:90%;
+  height:90%;
+  background-color:#f3f3f4;
+  overflow-y:scroll;
+}
+
+
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 90%;
+    margin: 1%;
+  }
+.input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: 0.3s ease;
+  }
+  
+  .input::placeholder {
+    color: #9e9ea7;
+  }
+  
+  .input:focus,
+  input:hover {
+    outline: none;
+    border-color: rgba(0, 48, 73, 0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(0 48 73 / 10%);
+  }
+  
+  .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+  }
+div[id^="file-"]{
+  border-radius:30px;
+  margin: 1%;
+  align-items: center;
+  width: 99%;
+  height: 7%;
+  display: flex;
+  background-color: #fff;
+}
+div[id^="file-"] > svg,img{
+  user-select: none;
+  margin: 2%;
+  width: 5%;
+  height: 80%;
+  border-radius:20%;
+}
+div[id^="file-"] >#filename,#filePath, #updateTime{
+  user-select:none;
+  font-size: 60%;
+  text-align: center;
+  display: flex; 
+  align-items: center; 
+  /* background-color: red; */
+  width: auto; /* Let the width be determined by the content */
+  padding: 0 1%;
+}
+
+div[id^="file-"]:hover{
+  background-color: #e9e7ef;
+}
+/* .file > {
+  Font-size:60%;
+  text-align: center;
+  display: flex; 
+  align-items: center; 
+
+}
+.file >{
+  Font-size:60%;
+  text-align: center;
+  display: flex; 
+  align-items: center; 
+
+} */
